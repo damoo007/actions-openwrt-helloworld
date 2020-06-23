@@ -43,8 +43,8 @@ jobs:
     if: github.event.repository.owner.id == github.event.sender.id
 
     steps:
-    - name: Hello World
-      if: github.event.action == 'helloworld'
+    - name:dejavu
+      if: github.event.action == 'dejavu'
       run: |
         echo My name is LANCE.
         echo Hello World!
